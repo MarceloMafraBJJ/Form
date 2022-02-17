@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@marcelomafrabjj - Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="flex">
+        <div class="presentation">
+            <div class="title ">Register</div>
+            <div class="subTitle ">Be <br/> part <br/> of <br/> history!</div>
+        </div>
+        <div class="container">
+            <div class="form">
+                <form action="">
+                    <label>
+                    <div class="personalData"> PERSONAL DATA </div>
+                    Full Name:<br />
+                    <input type="text" name="name" placeholder="full name" required/>
+                </label> <br/>
+
+                    <label>
+                    CPF:<br />
+                    <input type="text" name="cpf" placeholder="xxx.xxx.xxx-xx" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato: xxx.xxx.xxx-xx" required>
+                </label> <br/>
+
+                    <label>
+                    Birth date:<br />
+                    <input type="date" name="data" placeholder="full name" />
+                </label> <br/>
+
+                    <label>
+                   
+                State:<br/>
+                <select id="estado" name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="EX">Estrangeiro</option>
+                </select><br />
+               </label><br />
+
+                    <label>
+                    Gender:<br />
+                    <input type="radio" name="check"/>
+                    Male
+                    <input type="radio"name="check" />
+                    Female
+                </label><br />
+                    <input type="submit" class="submit" value="To send">
+            </div>
+
+            <div class="line"></div>
+
+            <div class="form">
+
+                <label>
+                    <div class="personalData"> DATA OF THE RESPONSIBLE </div>
+                    Responsible:<br />
+                    <input type="text" name="name" placeholder="full name" class="height"/>
+                </label> <br/>
+
+                <label>
+                    CPF:<br />
+                    <input type="text" name="cpf" placeholder="xxx.xxx.xxx-xx" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato: xxx.xxx.xxx-xx" class="height">
+	
+                </label> <br/>
+
+                <label>
+                    E-mail:<br />
+                    <input type="email" name="nome" placeholder="full name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required  class="height"/>
+                </label>
+
+            </div>
+
+            </form>
+        </div>
+
+
+    </div>
+
+    <div class="widget">
+        <div class="phrase">
+            Believe in your potential.
+        </div>
+    </div>
+
+
+</body>
+
+</html>
